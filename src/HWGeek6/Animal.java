@@ -5,13 +5,14 @@ public class Animal {
     protected String name;
     protected int distanceRun;
     protected int distanceSwim;
+    static int count;
 
-//    public Animal () {
-//        int count = 1;
-//        while (true);
-//
-//        System.out.println("Родилось " + count + " животных");
-//    }
+    public Animal() {
+ count++;
+        }
+        public static int getAnimalCount() {
+        return count;
+        }
 
     public int getDistanceSwim() {
         return distanceSwim;

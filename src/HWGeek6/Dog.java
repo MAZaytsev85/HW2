@@ -6,7 +6,9 @@ public class Dog extends Animal{
         this.name = name;
         this.distanceRun = distanceRun;
         this.distanceSwim = distanceSwim;
-    }
+
+        }
+
     public void run() {
         if (distanceRun < 500)
         System.out.println(name + " пробежал " + distanceRun + " метров ");
